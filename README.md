@@ -21,5 +21,3 @@ cd <your-repo-name>
 ```bash
 pip install -r requirements.txt
 ````
-
-gallll 
