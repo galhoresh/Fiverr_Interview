@@ -1,0 +1,30 @@
+# --- Security & Secrets ---
+# This hides your database password and secret keys
+.env
+
+# --- Virtual Environments ---
+# No need to upload the actual Python libraries
+venv/
+.venv/
+env/
+ENV/
+
+# --- Python Cache ---
+# These are the __pycache__ folders seen in your screenshot
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Databases ---
+# If you ever use a local SQLite file for testing
+*.db
+*.sqlite3
+
+# --- Logs ---
+# For those database connection logs we talked about
+*.log
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
